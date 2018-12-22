@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="publickey">
+    <Basepaths>/publickey</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1545504042891</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description></Description>
+    <DisplayName>publickey</DisplayName>
+    <LastModifiedAt>1545505268917</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:afbb62ae6b07d71ac3f7e2296238261cb8eb4f2d599bea4ffe3dd008d0dc8cd4faafaa0c16d32cead1f48fbee91d1a7684245cd261ebba0d75872eee2f01b566</ManifestVersion>
+    <Policies>
+        <Policy>Get-Public-Key</Policy>
+        <Policy>Send-Public-Key</Policy>
+        <Policy>Write-Public-Key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://jsrsasign-all-min.js</Resource>
+        <Resource>jsc://jwt-initialization.js</Resource>
+        <Resource>jsc://send-public-key.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

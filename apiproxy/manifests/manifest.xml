@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Get-Public-Key" version="SHA-512:dcfdc51166b6c2964abb010d22c6962db956394b0db782e9a76d1969b171e91dcac79a00bb3196b3d0703d8b534df9f41d32541b814b5dd4d2fa1b88b5e8c17e"/>
+        <VersionInfo resourceName="Send-Public-Key" version="SHA-512:86f9cd6a0753e73f2bc00bea713fc8d1eb0573cbe8f64d2104c628a1272236a6f09cf1ebc876ced0dbeef768c53ee503937d68d5efde9be0391b1fcfc0637cbb"/>
+        <VersionInfo resourceName="Write-Public-Key" version="SHA-512:f3ea9121be9fabd932e9705acd984556812abd49796f6b330da9a1de780d048e51f7960b7f2877882be8cc3c268e6e33fab2765313c34c37b42b11ce713dcb11"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:3bb63f718a7ef4cabe3d6ba22e0b8576ba5a123a773b3f1072c0e53aee77b3333d12f5d26c4e925371af6456892ebe22e4111f0c50a91121cb548d64baf77e08"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://jsrsasign-all-min.js" version="SHA-512:d0b86d743c5bd717325184786ee145b93b5259613b75a0020b3fab43d8fb5584ff2b7cdd5db1114f457bc4a284c35630fa76a84f24a22f0cd09c8b4b7d4467e5"/>
+        <VersionInfo resourceName="jsc://jwt-initialization.js" version="SHA-512:1daa08d3874be7de087886c15fa0c2c35de35d9c9ca6c3b87bac91ea88928bd5c2d06ada29ebf33be0635e58e6a748277bb98d2d9a2421e1921f15fbb8ce94be"/>
+        <VersionInfo resourceName="jsc://send-public-key.js" version="SHA-512:802f292a7e3bbf955a35e0a1480a4617a789ac9764a5534e218799a04b965d72eb3a8f3c7a18f51359a9abaaada335f4d07321a76e3475e9a36975711408abd8"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>
