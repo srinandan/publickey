@@ -28,6 +28,6 @@
  var certificate = context.getVariable("private.publicKey");
  var publickey = KEYUTIL.getKey(certificate);
  var publicPEM = KEYUTIL.getPEM(publickey)
- context.setVariable("public_key1",JSON.stringify(publicPEM));
- context.setVariable("response.content", unescape(JSON.stringify(publicPEM)));
+ context.setVariable("public_key1",publicPEM);
+ context.setVariable("response.content", unescape(publicPEM));
  context.setVariable("response.status.code", 200);
